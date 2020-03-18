@@ -13,6 +13,7 @@ public class CommonSteps {
     @And("^I start the browser$")
     public void startBrowser() {
         driverManger.createDriver();
+        driverManger.getDriver().navigate().to("google.com");
     }
 
 }

@@ -20,4 +20,5 @@ public class ChromeDriverManager implements DriverManager {
     public WebDriver getDriver() {
         return driver;
     }
+
 }
